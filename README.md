@@ -1,16 +1,45 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Login UI
 
-Currently, two official plugins are available:
+Uma interface de login simples e funcional construída com **React + Vite**, publicada diretamente no **GitHub Pages**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Demo Online:** 
+[https://elerijunior.github.io/login-ui/]
+(https://elerijunior.github.io/login-ui/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Sobre
 
-## Expanding the ESLint configuration
+Este projeto exemplifica um formulário de login com rotas usando **React Router**, componentes funcionais e SVGs importados como componentes via **vite-plugin-svgr**.  
+Ideal como base para autenticação visual em aplicações front-end.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias usadas
+
+- ⚛️ React 19
+- 🚀 Vite
+- 📦 gh-pages (deploy no GitHub Pages)
+- 🛠 vite-plugin-svgr
+- 📍 React Router DOM
+
+---
+
+## 🧰 Pré-requisitos
+
+Certifique-se de ter instalado:
+
+- Node.js (>=16)
+- npm
+
+---
+
+## 💻 Como rodar localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/elerijunior/login-ui.git
+cd login-ui
