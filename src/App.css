@@ -74,18 +74,18 @@ form{
     display: flex;
     flex-direction: row;
     gap: 10px;
-   
-    & input{
-        width: 18px;
-        accent-color: #371A46;
-        
-    }
 
-    & label{
+}
+
+.container-lembrar-senha input {
+    width: 18px;
+    accent-color: #371A46;
+}
+
+.container-lembrar-senha label {
         font-weight: 600;
         opacity: .7;
         cursor: pointer;
-    }
 }
 
 input, .login-button {
@@ -119,16 +119,15 @@ input, .login-button {
 .recover-password{
     width: 100%;
     max-width: 400px;
+}
+.recover-password span {
+    font-size: 14px;
+}
 
-    & span{
-        font-size: 14px;
-    }
-
-    & a {
-        text-decoration:  none;
-        color: #371A46;
-        font-weight: 600;
-    }
+.recover-password a {
+    text-decoration:  none;
+    color: #371A46;
+    font-weight: 600;
 }
 
 .password-text{
@@ -153,22 +152,21 @@ input, .login-button {
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-    & button {
-        background-color: #371A46;
-        border: none;
-        padding: 10px;
-        border-radius: 100px;
-        cursor: pointer;
     }
 
-    & button:hover {
+.icons-logins button {
+    background-color: #371A46;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.icons-logins button:hover {
         background-color: #65337e;
-    }
+}  
 
 .icon-svg{
     width: 20px;
     height: 20px;
     fill: white;
-}
 }
