@@ -1,0 +1,1 @@
+:root{--bgColor:linear-gradient(180deg, #371a46 0%, #4b1f61 100%)}*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bgColor);justify-content:center;align-items:center;min-height:100vh;margin:0;padding:20px;display:flex}
