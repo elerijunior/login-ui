@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SEU_USUARIO.github.io/login-ui",
+  "homepage": "https://elerijunior.github.io/login-ui",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
