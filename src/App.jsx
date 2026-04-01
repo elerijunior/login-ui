@@ -1,14 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App'
-import './index.css'
+import { useState } from 'react'
+import Astronauta from './assets/imagem-hero.jpg'
+import GoogleIcon from './assets/google-icon.svg?react'
+import FacebookIcon from './assets/facebook-icon.svg?react'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/login-ui">
-    <App />
-  </BrowserRouter>
-)
+import './App.css'
 
 function App() {
 
@@ -44,9 +39,7 @@ function App() {
           </div>
 
           <div className="button-container">
-            <a href="#" target='new_blank'>
-              <button className='login-button'>Entrar</button>
-            </a>
+            <a href="" target='new_blank'><button className='login-button'>Entrar</button></a>
           </div>
         </form>
       </div>
@@ -63,7 +56,7 @@ function App() {
           <div className="icons-logins">
             <button><GoogleIcon className="icon-svg" /></button>
             <button><FacebookIcon className="icon-svg" /></button>
-          </div>
+        </div>
 
         </div>
       </div>
