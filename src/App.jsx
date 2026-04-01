@@ -1,9 +1,14 @@
-import { useState } from 'react'
-import Astronauta from './assets/imagem-hero.jpg'
-import GoogleIcon from './assets/google-icon.svg?react'
-import FacebookIcon from './assets/facebook-icon.svg?react'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
+import './index.css'
 
-import './App.css'
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter basename="/login-ui">
+    <App />
+  </BrowserRouter>
+)
 
 function App() {
 
