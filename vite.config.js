@@ -4,6 +4,7 @@ import svgr from 'vite-plugin-svgr'
 
 
 export default defineConfig({
+  base:'/login-ui/',
   plugins: [react(), svgr()],
   
 })
