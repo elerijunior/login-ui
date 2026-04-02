@@ -5,16 +5,17 @@
   "type": "module",
   "homepage": "https://elerijunior.github.io/login-ui",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -b gh-pages -d dist"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0",
     "react-router-dom": "^7.13.2",
     "vite-plugin-svgr": "^5.0.0"
   },

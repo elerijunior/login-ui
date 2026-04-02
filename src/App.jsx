@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FiEye, FiEyeOff } from "react-icons/fi"
 import Astronauta from './assets/imagem-hero.jpg'
 import GoogleIcon from './assets/google-icon.svg?react'
 import FacebookIcon from './assets/facebook-icon.svg?react'
@@ -7,6 +8,8 @@ import './App.css'
 
 function App() {
 
+  const [showPassword, setShowPassword] = useState(false)
+  
 
   return (
    
@@ -28,9 +31,25 @@ function App() {
             <input name='Email' type="text" placeholder='Digite seu email' />
           </div>
 
-          <div className='input-password'>
+          <div className="input-password">
             <span>Senha</span>
-            <input name='Password' type="password" placeholder='Digite sua senha' />
+
+           <div className="input-wrapper">
+              <input 
+              name='Password' 
+              type={showPassword ? "text" : "password"} 
+              placeholder='Digite sua senha' 
+              />
+
+              <button 
+              type="button"
+              className="toggle-password"
+              onClick={() => setShowPassword(prev => !prev)}
+              >
+              {showPassword ? <FiEyeOff className="icon-eye" /> 
+                            : <FiEye className="icon-eye" /> }
+              </button>
+            </div>
           </div>
 
           <div className='container-lembrar-senha'>
