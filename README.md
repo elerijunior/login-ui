@@ -5,7 +5,6 @@
 Uma interface de login simples e funcional construída com **React + Vite**, publicada diretamente no **GitHub Pages**.
 
 🔗 **Demo Online:** 
-[https://elerijunior.github.io/login-ui/]
 (https://elerijunior.github.io/login-ui/)
 
 ---
