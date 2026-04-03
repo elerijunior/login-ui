@@ -68,14 +68,13 @@ function App() {
           <a className='link-recover-password' href="#">Recuperar Senha</a>
         </p>
 
-        
         <div className="alternate-login">
           <span>Ou entre com:</span>
 
           <div className="icons-logins">
             <button><GoogleIcon className="icon-svg" /></button>
             <button><FacebookIcon className="icon-svg" /></button>
-        </div>
+          </div>
 
         </div>
       </div>
